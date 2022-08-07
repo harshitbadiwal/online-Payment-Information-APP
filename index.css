@@ -1,0 +1,336 @@
+.navbar-bg{
+    background-color: rgb(250, 250, 250);
+    padding: 1vh ;
+    z-index: 99;
+    position: relative;
+
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar li {
+    padding:0 0.8vh;
+}
+.navbar li a {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: relative;
+}
+.navbar li a:hover {
+    cursor: pointer;
+    color:rgb(138, 20, 249) !important;
+    text-shadow: 0 0.2rem 0.3rem rgba(162, 138, 248, 0.5);
+}
+
+.btn-style{
+
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: rgb(69, 69, 139);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+
+}
+.btn-style:first-child{
+    margin: 0 10px;
+}
+.btn-style:hover{
+    border: 0.1rem rgb(69, 69, 139);
+    background-color: transparent;
+    color: rgb(69, 69, 139);
+    box-shadow: 0.2rem 0.2rem rgba(183, 171 , 255, 0.5);
+}
+.btn-style-border{
+    border: 0.1rem rgb(69, 69, 139);
+    color: rgb(69, 69, 139);;
+    background-color: transparent ;
+    box-shadow: 0 0.2rem 0.3rem rgba(162, 138, 248, 0.5);
+}
+.btn-style-border:hover{
+    color: #fff;
+    background-color: rgb(69, 69, 139);
+    text-transform: capitalize;
+}
+
+/* header file css*/
+header{
+    background-color: rgb(250, 250, 250);
+    height: 100vh;   
+    width: 100%;
+}
+
+.main-hero-container{
+    height: 80vh;
+    display:flex
+}
+.main-hero-para{
+    font-size: 15px;
+    margin: 1.5rem 0 2.5rem 0;
+    font-weight: lighter;
+    width: 75%;
+}
+
+.main-hero-container h3{
+    
+}
+.main-herosection-images{
+    position: relative;
+}
+.main-herosection-images img{
+width: 65%;
+height: 70%;
+margin-top: 7rem;
+box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 25);
+border-radius: 1.5rem;
+position: absolute;
+}
+.main-herosection-images .main-herosection-img2 {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    left: 60%;
+    top: -15%;
+    box-shadow: 0.8rem 0 0. 0.8rem rgba(0, 0, 0, 25);
+}
+.input-group {
+    position: relative;
+}
+.form-control-text {
+    position: absolute;
+    border: none;
+    outline-style: none;
+    padding: 1rem !important;
+
+}
+.input-group-button {
+    position: absolute;
+    top: 0.5rem;
+     right: 51%;
+
+
+    color: #fff;
+    background-color: rgb(69, 69, 139) ;
+    height: 2.5rem;
+    width: 18%;
+    border-radius: 2rem !important;
+    text-align: center;
+   display: flex;
+
+align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+/* How it work */
+.work-container{
+    width: 80vw;
+    padding: 6vh;
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.1);
+    margin-top: -5rem;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.work-container .main-heading{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+    word-spacing: 1rem;
+
+}
+.work-container-subdiv{
+    padding: 0 2rem;
+}
+.work-container.sub-heading{
+    font-size: 2rem;
+    font-weight: normal;
+}
+.fontawesome-style{
+    font-size: 2rem;
+    color:  rgb(69, 69, 139);
+    width: 4rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color:  rgb(250, 250, 250);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 2rem auto;
+
+}
+
+/*               Aboutus                       */
+ 
+.our-services img{
+    width: 55%;
+    height: 57%;
+    margin-top: 8.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+    border-radius: 1.2rem;
+}
+.button{
+    
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+
+    text-transform: capitalize;
+    font-size: 1.2rem;
+
+}
+.our-services .mini-title{
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 3rem 0 ;
+    
+    text-align: left;
+    font-size: 1.2rem;
+}
+.our-services .main-heading{
+    font-weight: bolder;
+}
+
+.our-services-info{
+    margin-top: 0.5rem;
+}
+
+.our-services-info .our-services-info{
+    width: 2.5rem;
+    height:2rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.1rem solid rgb(69, 69, 139);
+    font-size: 1.3rem;
+    color:rgb(69, 69, 139) ;
+    display: grid;
+    place-items: center;    
+}
+
+.our-services-data{
+    padding-top: 1rem;
+}
+.our-services .our-services-data p{
+    margin: 1rem 0;
+}
+
+/*  section2 in Aboutus     */
+
+.image img{
+    width: 70%;
+    height: 57%;
+    margin-top: 8.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+    border-radius: 1.2rem;
+}
+
+.our-service-rightside-content{
+    padding-left: 7rem ;
+}
+
+
+
+/*              ---------- Services css---------                     */
+.service-main-container{
+    margin-top: 3rem;
+    
+}
+.service-main-container .main-heading{
+    margin: 3rem 0;
+}
+.works-container-subdiv{
+box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+padding: 0 2rem;
+}
+.works-container-subdiv:hover{
+    background-color:rgba(215, 208, 253, 0.5) ;
+    cursor: pointer;
+}
+
+.service-main-container .work-container-subdiv .fontawesome-style{
+    text-align: left !important;
+    margin: 1.5rem 0;
+    
+}
+.works-container-subdiv .main-hero-para{
+    width: 100%;
+}
+@media(min-width: 1000px){
+    .container .col-xxl-4{
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin: auto;
+
+    }
+}
+@media(min-width:800px){
+    .service-container col-lg-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin: 2.5rem auto;
+    }
+    }
+
+/*                 -------------- contact.js ------------------                     */
+
+
+.contectus-section{
+    margin: 6rem 0;
+}
+.contect-leftside img{
+    min-width: 80%;
+    max-height: 30rem;
+    height: auto;
+}
+.contact-input-feild{
+    margin-bottom: 1.5rem;
+}
+.contact-rightside from .form-control {
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-left: 1rem;
+}
+.contact-rightside form .form-check-input {
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 1.7rem;
+}
+.contact-rightside from .main-hero-para {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: lighter;
+    width: 75%;
+    padding: 0 1.5rem;
+}
+
+
+
+/*      ---------------------- footer css--------------   */
+footer {
+    padding: 2rem;
+    background-color: #182334 ;
+    color: #fff;
+}
+footer h3 {
+    color: #fff;
+}
+footer li{
+    list-style: none;
+    font-size: 1rem;
+    
+    color: #fff;
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+footer li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer li a:hover {
+    color:rgb(69, 69, 139) ;
+}
